@@ -1,0 +1,286 @@
+       
+
+
+        /* Header styles */
+        header {
+            background-color: #593f3a;
+            color: #ffffff;
+            padding: 10px;
+            text-align: center;
+            
+        
+        }
+
+        h1 {
+            font-size: 3em;
+            font-family: 'Cinzel', sans-serif;
+            margin-top: 0.5%;
+            margin-bottom: 0.5%;
+        }
+
+        /* Navigation bar styles */
+        nav {
+            background-color: #a58464; 
+            color: #333;
+            padding: 10px;
+            text-align: center;
+            font-family: 'Comfortaa';
+            border: 2px solid #333; /* Add a 2px solid border with color #333 */
+            }
+            
+        
+        
+        nav a {
+            color: #333;
+            text-decoration: none;
+            padding: 10px;
+            margin: 0 10px;
+            border: 2px solid transparent; /* Add a transparent border to start with */
+            transition: border-color 0.3s ease; /* Add a smooth transition effect for the border color */
+        }
+        
+        /* Darkening effect on hover and border on active link */
+        nav a:hover,
+        nav a:focus,
+        nav a:active {
+            background-color: #333; 
+            color: #fff; 
+            border-color: #5a4c3dc1;
+        }
+        
+        /* Darkening effect on hover */
+        nav a:hover {
+            background-color: #7b6e5b; 
+            color: #fff; 
+        }
+
+        /* Main content styles */
+        main {
+            
+            padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center; 
+            flex-direction: row; 
+            background-image: url(web.png);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+            background-size: cover;
+        }
+
+        
+       
+        /* Transparent White Box styles */
+        .transparent-box {
+            background-color: rgba(255, 255, 255, 0.664); /* Almost transparent white */
+            padding: 20px;
+            border-radius: 15px; /* Add rounded corners */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+            margin: 10px;
+            box-sizing: border-box; /* Include padding and border in the box's total width */
+            text-align: justify;
+            position: relative; 
+            margin-bottom: 5cm;
+        
+        }
+
+        .centered-box {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 70vh; /* Adjust the height */
+        }
+        
+        .transparent-box2 {
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 30px; /* Adjust the padding as needed */
+            border-radius: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            box-sizing: border-box;
+            text-align: justify;
+            position: relative;
+            margin: 0 auto; /* Center the transparent box horizontally */
+            max-width: 800px; /* Set a maximum width if desired */
+            margin-left: 9cm;
+        }
+        
+        .video-container {
+            overflow: hidden;
+            border-radius: 20px;
+            
+        }
+        
+        video {
+            width: 800px; /* Set a specific width */
+            height: 450px; /* Set a specific height */
+            border: none;
+            display: block;
+        
+            
+        }
+        
+        
+        
+        
+
+
+
+
+
+        p {
+            font-family: 'Comfortaa';
+                   /* Transparent White Box styles */
+
+
+            }
+            
+        h3 {
+            font-family:'Comfortaa';
+
+        }
+            
+        h2 {
+            font-size: 7em;
+            font-family: 'Playfair Display', sans-serif;
+            color: #ffffff;
+            margin-right: 65%;
+            margin-top: 2%;
+            
+        }
+        
+        h2 {
+            margin-bottom: 0%; /* Set margin-bottom to 0 to remove the space between elements */
+        }
+        
+        .small-text {
+            font-size: 1em; /* Adjust the font size for smaller text */
+            color: rgba(255, 255, 255, 0.8);
+            margin-right: 62%; /* Align with the heading */
+            margin-top: 0%; /* Adjust the margin if needed */
+            text-align: justify;
+            margin-bottom: 5%;
+
+
+        }
+
+        /* Rectangular Box styles */
+        .info-box {
+            background-color: rgba(231, 211, 187, 0.8); /* Slightly transparent white */
+            padding: 20px;
+            border-radius: 15px; /* Add rounded corners */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+            margin-bottom: 30px; /* Add margin between boxes */
+            box-sizing: border-box; /* Include padding and border in the box's total width */
+            width: calc(20% - 20px); /* Adjusted width to include margins */
+            height: 6cm;
+            margin-right: 20px; /* Margin to the right of each box */
+        }
+
+        /* Custom sizes for individual boxes */
+        .info-box:nth-child(1),
+        .info-box:nth-child(2),
+        .info-box:nth-child(3),
+        .info-box:nth-child(4) {
+            margin-right: 0; /* No margin on the last box in each row */
+        }
+
+        /* Adjust the margin-top for the paragraph elements inside .info-box */
+        .info-box p {
+            margin-top: -10px; /* Adjusted margin to move the text higher */
+        }
+
+        /* Additional boxes */
+        .additional-box {
+            background-color: rgba(161, 137, 109, 0.636); /* Slightly transparent white */
+            padding: 20px;
+            border-radius: 15px; /* Add rounded corners */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+            box-sizing: border-box; /* Include padding and border in the box's total width */
+            width: 40%; /* Adjusted width to place two boxes beside each other */
+            height: 11cm;
+            margin-bottom: 10px; /* Adjusted margin between boxes */
+            display: inline-block; /* Display boxes inline */
+            margin-right: 1cm; /* Adjusted margin between boxes */
+            margin-left: 3cm;
+        }
+
+        /* Clear the right margin for the last box */
+        .additional-box:last-child {
+            margin-right: 0.5cm;
+        }
+
+        /* Additional boxes */
+        .additional-box {
+            /* ... existing styles ... */
+        }
+
+        /* Image container */
+        .image-container {
+            overflow: hidden;
+            border-radius: 15px; /* Add rounded corners to the image container */
+        }
+
+        /* Image styling */
+        .image-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* Ensure the image covers the entire container */
+            border-radius: 15px; /* Add rounded corners to the image itself */
+        }
+
+        /* Additional boxes */
+        .additional-box {
+            /* your existing styles for .additional-box */
+
+            /* Add the styles from the provided CSS for .additional-box here */
+            background-color: rgba(161, 137, 109, 0.636);
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            box-sizing: border-box;
+            width: 40%;
+            height: 11cm;
+            margin-bottom: 10px;
+            display: inline-block;
+            margin-right: 1cm;
+            margin-left: 3cm;
+            position: relative;
+        }
+
+        /* Clear the right margin for the last box */
+        .additional-box:last-child {
+            margin-right: 0.5cm;
+        }
+
+        /* Image container */
+        .image-container {
+            /* Add the styles from the provided CSS for .image-container here */
+            overflow: hidden;
+            border-radius: 15px;
+            margin-top: 7px; /* Adjust the negative margin to move the image slightly on top */
+        }
+
+        /* Image styling */
+        .image-container img {
+            width: 100%;
+            object-fit: cover;
+            border-radius: 15px;
+        }
+
+       
+
+
+
+
+
+
+        /* Footer styles */
+        footer {
+            background-color: #f9dcc4; 
+            color: #333;
+            padding: 10px;
+            text-align: center;
+        
+        }

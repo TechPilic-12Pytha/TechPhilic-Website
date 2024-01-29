@@ -1,0 +1,74 @@
+/* Header styles */
+header {
+    background-color: #302653;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+    
+
+}
+
+h1 {
+    font-size: 3em;
+    font-family: 'Cinzel', sans-serif;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+}
+
+/* Navigation bar styles */
+nav {
+    background-color: #645799; 
+    color: #170a29;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Comfortaa';
+    border: 2px solid #371d4f; /* Add a 2px solid border with color #333 */
+    }
+    
+
+
+nav a {
+    color: #250f38;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 10px;
+    border: 2px solid transparent; /* Add a transparent border to start with */
+    transition: border-color 0.3s ease; /* Add a smooth transition effect for the border color */
+}
+
+/* Darkening effect on hover and border on active link */
+nav a:hover,
+nav a:focus,
+nav a:active {
+    background-color: #6e4a85; 
+    color: #fff; 
+    border-color: #4f3a59c1;
+}
+
+/* Darkening effect on hover */
+nav a:hover {
+    background-color: #9760a6; 
+    color: #fff; 
+}
+
+/* Main content styles */
+main {
+    height: 100vh;
+    overflow-y: auto;
+    position: relative;
+    background-image: url('infographics.jpg');
+    background-size: cover;
+    background-attachment: scroll; 
+    margin: 0;
+    padding-top: 1000px;
+    padding-bottom: 2000px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #ad9ee4;
+    color: #333;
+    padding: 10px;
+    text-align: center;
+}
+
